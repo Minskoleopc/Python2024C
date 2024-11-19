@@ -107,3 +107,26 @@ e3 = numbers.count(22)
 print(e3)
 
 # copy
+
+x = 10
+print(x)
+y = x
+y = 90
+print(x) # 10
+print(y) # 90
+
+
+names = ["chinmay",'ram',"sham","poorva"]
+print(names)
+names2 = names
+names2[0] = "sarika"
+print(names2)
+print(names)
+
+#              0       1       2        3
+fruits   = ["apple","mango","banana","orange"]
+
+fruits2 = fruits.copy()
+fruits2[0] = "papaya"
+print(fruits)
+print(fruits2)
