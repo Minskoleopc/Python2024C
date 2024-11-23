@@ -156,3 +156,20 @@ print(e)
 
 #program 9
 
+
+info2 = {
+    "fn":"chinmay",
+    "ln":"deshpande"
+}
+
+info3 = info2.copy()
+info3["fn"] = "raj"
+print(info3)
+print(info2)
+
+# print(type(info2))
+# info3 = info2
+
+# info2["fn"] = "tanmay"
+# print(info2)
+# print(info3)
