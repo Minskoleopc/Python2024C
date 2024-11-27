@@ -207,7 +207,6 @@ str10 = " goa "
 e8 = str10.rstrip()
 print(len(e8))
 
-
 str10 = "chinmay"
 
 # 0   1   2  3  4  5  6
