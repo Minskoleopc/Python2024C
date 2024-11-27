@@ -137,3 +137,89 @@ names  = ["chinmay","sarika","shraddha","abhisha","ninad","mohan"]
 # print(names[1:-2])
 
 # 1   2   3    4     5    6    7     8     9   10   11   12 
+
+
+# methods in string 
+# upper()
+first_name = "chinmay"
+print(first_name)
+e  = first_name.upper()
+print(e)
+
+# lower()
+last_name = "Deshpande"
+e2 = last_name .lower()
+print(e2)
+
+# captialize
+middle_name = "shirish"
+e3 = middle_name.capitalize()
+print(e3)
+
+# checkMethods
+
+str1 = "chinmay"
+e2 = str1.islower()
+print(e2)
+
+
+str2 = "CHINMAY"
+e3 = str2.isupper()
+print(e3)
+
+
+str3 = "123"
+e4 = str3.isdigit()
+print(e4)
+
+str3 = "Abc"
+e5 = str3.isalpha()
+print(e5)
+
+str4 = "123asdsa"
+str5 = "123"
+str6 = "asd"
+
+print(str4.isalnum())
+print(str5.isalnum())
+print(str6.isalnum())
+
+
+str7 = "Chinmay Is Learning Js"
+print(str7.istitle())
+
+
+# trim methods 
+
+
+str8 = " goa "
+print(len(str8))
+
+e6 = str8.strip()
+print(len(e6))
+
+
+str9 = " goa "
+e7 = str9.lstrip()
+print(len(e7))
+
+str10 = " goa "
+e8 = str10.rstrip()
+print(len(e8))
+
+
+str10 = "chinmay"
+
+# 0   1   2  3  4  5  6
+# c   h   i  n  m  a  y
+
+e9 = str10.index("c")
+print(e9)
+
+str11 = "I am learnning javascript"
+e10 = str11.replace("javascript","python")
+print(e10)
+
+
+
+
