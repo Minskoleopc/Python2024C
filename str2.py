@@ -132,6 +132,5 @@ print(f3)
 r2 = ["apple","mango","banana"]
 f4 = "-".join(r2)
 print(f4) # apple-mango-banana
-
 r3 = f4.split('-') #["apple","mango","banana"]
 print(r3)
