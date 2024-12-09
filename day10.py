@@ -96,6 +96,5 @@ setD.update((77,88))
 setD.update({99,100})
 print(setD)
 
-# next class monday ---
-# next class monday morning - 8:30 --- sql
+
 
