@@ -70,6 +70,31 @@ def addE(setE):
 f = addE(setA)
 print(f)
 
+
+# difference between remove and discard
+# print("hello")
+# setA = {11,22,33}
+# #e = setA.discard(44)
+# setA.remove(44)
+# print(e)
+# print("bye")
+
+# info 
+
+info = {
+    "firstName":"chinmay",
+    "lastName":"deshpande",
+    "age":13
+}
+
+print(info)
+
+#info.pop('firstName')
+
+info.popitem()
+print(info)
+
+
 # function as a parameter
 
 # function as a return type
